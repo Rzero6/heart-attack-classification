@@ -2,7 +2,7 @@ import streamlit as st
 import pickle
 from pathlib import Path
 
-BASE_DIR = Path(__file__).parent
+BASE_DIR = Path(__file__).parent.parent
 
 @st.cache_resource
 def load_model():
