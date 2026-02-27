@@ -11,7 +11,8 @@ pg = st.navigation({
         st.Page("pages/predict.py", title="Predict Heart Attack", icon=":material/edit:")
     ],
     "About": [
-        st.Page("pages/team_credits.py", title="Team", icon=":material/diversity_1:")
+        st.Page("pages/model.py", title="Model", icon=":material/smart_toy:"),
+        st.Page("pages/team.py", title="Team", icon=":material/diversity_1:"),
     ],
 })
 

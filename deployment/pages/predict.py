@@ -5,7 +5,7 @@ from utils.encoders_loader import load_encoders
 from utils.model_loader import load_model
 from utils.input_preprocessor import preprocess_input
 
-st.title("Input Data", text_alignment="center")
+st.set_page_config(page_title="Input Data", layout="centered",page_icon="✏️")
 
 data = input_form()
 
