@@ -46,14 +46,15 @@ The dataset used in this project is sourced from **Kaggle**: [Heart Attack Predi
 - **NumPy** - Numerical computations
 - **Scikit-learn** - Machine learning algorithms
 - **Matplotlib & Seaborn** - Data visualization
-- **Flask** - Web framework for deployment
+- **Streamlit** - Web framework for deployment
 - **Jupyter Notebook** - Interactive development environment
 
 ## Project Structure
 
 ```
 heart-attack-classification/
-├── Heart Attack Classification.ipynb  # Main analysis and model development
+├── Heart Attack Classification.ipynb  # Main analysis
+├── deployment # model development
 ├── heart_attack_prediction_dataset.csv # Dataset file
 └── README.md                           # Project documentation
 ```
@@ -70,10 +71,6 @@ heart-attack-classification/
 1. Clone or download this project
 2. Install required dependencies:
 
-```bash
-pip install pandas numpy scikit-learn matplotlib seaborn flask jupyter
-```
-
 ### Usage
 
 1. **Notebook Analysis**: Open the Jupyter notebook to explore the data, preprocessing steps, and model selection:
@@ -82,23 +79,15 @@ pip install pandas numpy scikit-learn matplotlib seaborn flask jupyter
 jupyter notebook "Heart Attack Classification.ipynb"
 ```
 
-1. **Flask Deployment** (Coming soon): Deploy the trained model as a web service for real-time predictions.
+1. **Streamlit Deployment** Deploy the trained model as a web service for real-time predictions.
 
 ## Results & Output
 
 The notebook outputs:
 
 - Statistical summaries and visualizations
-- Model performance metrics (accuracy, precision, recall, F1-score)
-- Feature importance rankings
+- Model performance metrics (accuracy, precision, recall)
 - Best model selection for deployment
-
-## Future Enhancements
-
-- Flask web application for user-friendly predictions
-- API endpoint for model inference
-- Model explainability features (SHAP values, etc.)
-- Real-time monitoring and performance tracking
 
 ## License
 

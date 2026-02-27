@@ -39,7 +39,7 @@ htmlcov/
 *.db
 
 # Models and checkpoints
-models/
+# models/
 checkpoints/
 weights/
 *.h5
@@ -49,7 +49,7 @@ weights/
 *.ckpt
 *.ckpt.*
 *.joblib
-*.pkl
+# *.pkl
 *.sav
 *.onnx
 
